@@ -7,8 +7,32 @@
     <title>Counter2</title>
 </head>
 <body>
-<div>
+<div class="homevguest">
+    <div class="home">
+        <h2 class="title">Home</h2>
+        <div class="redbox">
+            <p class="pointsBox" id="home_score">0</p>
+        </div>
+        <div class="pointsButtons">
+            <p class="button"onclick = "homeOnePoint()">+1</p>
+            <p class="button"onclick = "homeTwoPoints()">+2</p>
+            <p class="button"onclick = "homeThreePoints()">+3</p>
+        </div>
+        
+    </div>
+    <div>
+        <h2 class="title">Guest</h2>
+        <div class="redbox">
+            <p class="pointsBox"id="guest_score">0</p>
+        </div>
     
+    
+        <div  class="pointsButtons">
+        <p class="button"onclick = "guestOnePoint()">+1</p>
+        <p class="button"onclick = "guestTwoPoints()">+2</p>
+        <p class="button"onclick = "guestThreePoints()">+3</p>
+        </div>
+    </div>
 </div>
 
     <script src="/index.js"></script>
